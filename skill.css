@@ -1,0 +1,65 @@
+#page2{
+    width: 100vw;
+    height: 100vh;
+   position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+ #page2center{
+    z-index: 99;
+    width: 80%;
+    height: 85%;
+    background-color:rgba(235, 228, 228, 0.836);
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 15px 6px black ;
+    
+}
+ .elem{
+    z-index: 99;
+    padding-left: 3vw;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    
+}
+.elem #css{
+     z-index: 99;
+     width: 55% ;
+    }
+    .elem #js{
+     z-index: 99;
+     width: 44% ;
+    }
+    .elem #nj{
+     z-index: 99;
+     width: 39% ;
+    }
+    
+    .elem .outsidediv{
+     z-index: 99;
+     position: absolute;
+     height: 1.3vw;
+     border-radius: 20px;
+     width: 64%;
+     background-color: black;
+     color: white;
+     padding-right: 5px;
+ }
+ .elem .outsidediv h4{
+     z-index: 99;
+     font-size: 0.89vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+ }
+
+ .elem .insidediv{
+     z-index: 99;
+    width: 90%;
+    height: 1.3vw;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+ }
